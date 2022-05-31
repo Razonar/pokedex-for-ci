@@ -1,11 +1,11 @@
 name: Deployment Pipeline
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-    types: [opened, synchronize]
+#  push:
+#    branches: [main]
+#  pull_request:
+#    branches: [main]
+#    types: [opened, synchronize]
   workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
 
 jobs:
